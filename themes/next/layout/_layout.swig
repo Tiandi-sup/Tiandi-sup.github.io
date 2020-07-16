@@ -57,7 +57,7 @@
     </div>
   {%- endif %}
 </body>
-<scripts>
+<script>
 window.addEventListener('DOMContentLoaded', () => {
   let icon = document.querySelector(".github-corner");
   icon.innerHTML  = `<svg width="80" height="80" viewBox="0 0 250 250" style="fill:#70B7FD;color:#fff;aria-hidden="true">
@@ -66,6 +66,6 @@ window.addEventListener('DOMContentLoaded', () => {
       </path>
   </svg>`;
 },false);
-</scripts>
+</script>
 </html>
 
