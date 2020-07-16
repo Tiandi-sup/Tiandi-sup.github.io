@@ -361,7 +361,7 @@ codeblock:
     # Show text copy result.
     show_result: true
     # Available values: default | flat | mac
-    style: mac
+    style: default
 
 back2top:
   enable: true
@@ -516,7 +516,7 @@ pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
-fancybox: false
+fancybox: true
 
 # A JavaScript library for zooming images like Medium.
 # Do not enable both `fancybox` and `mediumzoom`.
@@ -995,3 +995,11 @@ vendors:
 css: css
 js: js
 images: images
+
+#create excerpt
+auto_excerpt:
+  enable: true
+  length: 150
+  scroll_to_more: true  #点击阅读全文后是否跳到<!--more-->标记处,设为false时点击阅读全文可以从头阅读
+  save_scroll: false #自动保存每篇文章或页面上一次滚动的地方
+  excerpt_description: true #自动在首页对文章进行摘要描述作为前言文本
